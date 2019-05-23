@@ -1,9 +1,8 @@
-package com.example.examplemvp
-
-import javax.inject.Inject
+package com.example.examplemvp.login
 
 
-class LoginActivityPresenter(model: LoginActivityMVP.Model) : LoginActivityMVP.Presenter {
+class LoginActivityPresenter(model: LoginActivityMVP.Model) :
+    LoginActivityMVP.Presenter {
 
     var myView: LoginActivityMVP.View? = null
     var model: LoginActivityMVP.Model
@@ -38,7 +37,5 @@ class LoginActivityPresenter(model: LoginActivityMVP.Model) : LoginActivityMVP.P
                 it.setPassword(user.password)
             }
         }
-
-
     }
 }

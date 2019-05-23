@@ -1,7 +1,7 @@
 package com.example.examplemvp.root
 
-import com.example.examplemvp.LoginActivity
-import com.example.examplemvp.LoginModule
+import com.example.examplemvp.login.LoginActivity
+import com.example.examplemvp.login.LoginModule
 import dagger.Component
 import javax.inject.Singleton
 

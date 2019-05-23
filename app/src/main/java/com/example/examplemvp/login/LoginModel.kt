@@ -1,6 +1,7 @@
-package com.example.examplemvp
+package com.example.examplemvp.login
 
-class LoginModel(loginRepository: LoginRepository): LoginActivityMVP.Model {
+class LoginModel(loginRepository: LoginRepository):
+    LoginActivityMVP.Model {
 
     val repository: LoginRepository
 

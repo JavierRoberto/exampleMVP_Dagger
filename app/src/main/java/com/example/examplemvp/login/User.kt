@@ -1,4 +1,4 @@
-package com.example.examplemvp
+package com.example.examplemvp.login
 
 data class User(
     val userName: String,

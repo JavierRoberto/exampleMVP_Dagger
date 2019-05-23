@@ -1,8 +1,7 @@
 package com.example.examplemvp.root
 
 import android.app.Application
-import com.example.examplemvp.LoginModel
-import com.example.examplemvp.LoginModule
+import com.example.examplemvp.login.LoginModule
 
 class App: Application() {
 

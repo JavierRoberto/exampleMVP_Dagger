@@ -1,8 +1,9 @@
-package com.example.examplemvp
+package com.example.examplemvp.login
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.examplemvp.R
 import com.example.examplemvp.root.App
 import kotlinx.android.synthetic.main.activity_main.*
 import javax.inject.Inject
