@@ -1,6 +1,7 @@
 package com.example.examplemvp.root
 
 import android.app.Application
+import com.example.examplemvp.http.ApiModule
 import com.example.examplemvp.login.LoginModule
 
 class App: Application() {
@@ -12,6 +13,7 @@ class App: Application() {
         component = DaggerApplicationComponent.builder()
             .applicationModule(ApplicationModule(this))
             .loginModule(LoginModule())
+            .apiModule(ApiModule())
             .build()
     }
 }
